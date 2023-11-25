@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.innerbox{
+    border: 1px solid black;
+    padding: 3px;
+    width: 70vh;
+}
+
+h4{
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    padding: 0px 20px;
+    background-color: green;
+    color: white;
+}
+input{
+    height: 20px;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
